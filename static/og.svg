@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+	<title id="title">Michael Olawale</title>
+	<desc id="desc">Open Graph image for Michael Olawale, founder, builder, and technologist.</desc>
+	<rect width="1200" height="630" fill="#fafafa" />
+	<path d="M0 502 C230 426 360 468 548 334 C756 186 884 128 1200 104 L1200 630 L0 630 Z" fill="#050505" />
+	<path d="M84 102 H1116 M84 162 H900 M84 468 H1116" stroke="#050505" stroke-width="2" opacity="0.18" />
+	<path d="M944 82 1114 252" stroke="#7c3aed" stroke-width="22" stroke-linecap="round" />
+	<circle cx="1018" cy="158" r="44" fill="#050505" />
+	<circle cx="1018" cy="158" r="28" fill="#fff" />
+	<circle cx="1018" cy="158" r="14" fill="#7c3aed" />
+	<text x="84" y="284" fill="#050505" font-family="Instrument Serif, Georgia, serif" font-size="92">Michael Olawale</text>
+	<text x="88" y="356" fill="#404040" font-family="Geist, Arial, sans-serif" font-size="30">Founder, builder, and product-minded technologist</text>
+	<text x="84" y="540" fill="#fff" font-family="Geist, Arial, sans-serif" font-size="28">mykel.codes</text>
+</svg>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
+	<title id="title">Michael Olawale monogram</title>
+	<desc id="desc">A black and white MO monogram with a purple accent.</desc>
+	<rect width="64" height="64" rx="16" fill="#050505" />
+	<path d="M12 46V18h8.2l11.8 17.8L43.8 18H52v28h-7.2V29.7L34.2 46h-4.4L19.2 29.7V46H12Z" fill="#fff" />
+	<path d="M48.5 10.5 57 19 18.8 57.2 10.3 48.7 48.5 10.5Z" fill="#7c3aed" />
+	<path d="M46.7 14.8 52.7 20.8 49.6 23.9 43.6 17.9 46.7 14.8Z" fill="#c4b5fd" />
+</svg>
