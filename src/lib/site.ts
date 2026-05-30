@@ -5,8 +5,8 @@ export const site = {
 		'Building high-trust mobile and web products across fintech, health, travel, logistics, and commerce.',
 	description:
 		'Michael Olawale is a London-based React Native and frontend engineering leader with 10+ years of experience shipping mobile and web products across Africa, North America, and Europe.',
-	url: 'https://mykel.codes',
-	email: 'hello@mykel.codes',
+	url: 'https://mykelcodes.com',
+	email: 'hello@mykelcodes.com',
 	calendarUrl: 'https://cal.com/mykelcodes',
 	socials: [
 		{ label: 'GitHub', href: 'https://github.com/mykelcodes' },

@@ -46,7 +46,7 @@
 					</p>
 				</div>
 				<div class="prose max-w-none p-5 prose-neutral sm:p-6 dark:prose-invert">
-					<h1>A mobile engineering leader shaped by global product teams.</h1>
+					<h1>A web and mobile engineering leader shaping global product teams.</h1>
 					<p>
 						I am {site.name}, a React Native and frontend engineering leader with 10+
 						years of experience building mobile and web products across fintech, health
