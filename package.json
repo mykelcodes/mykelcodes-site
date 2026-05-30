@@ -19,6 +19,7 @@
 		"@fontsource/geist-mono": "^5.2.8",
 		"@fontsource/instrument-serif": "^5.2.8",
 		"@lucide/svelte": "^1.16.0",
+		"@sveltejs/adapter-cloudflare": "7.2.8",
 		"@sveltejs/adapter-netlify": "6.0.4",
 		"@sveltejs/kit": "2.57.0",
 		"@sveltejs/vite-plugin-svelte": "7.1.2",
