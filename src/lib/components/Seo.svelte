@@ -13,7 +13,7 @@
 		title = site.name,
 		description = site.description,
 		path = '',
-		image = '/og.svg',
+		image = '/og.png',
 		type = 'website'
 	}: Props = $props();
 
@@ -32,6 +32,9 @@
 	<meta property="og:description" content={description} />
 	<meta property="og:url" content={canonical} />
 	<meta property="og:image" content={imageUrl} />
+	<meta property="og:image:width" content="1200" />
+	<meta property="og:image:height" content="630" />
+	<meta property="og:image:alt" content={pageTitle} />
 	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:title" content={pageTitle} />
 	<meta name="twitter:description" content={description} />

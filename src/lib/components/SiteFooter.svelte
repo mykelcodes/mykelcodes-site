@@ -15,8 +15,9 @@
 			>
 				<span
 					class="grid size-9 place-items-center bg-[#24292f] text-white dark:bg-white dark:text-[#24292f]"
-					>MO</span
 				>
+					MO
+				</span>
 				{site.name}
 			</a>
 			<p
@@ -36,8 +37,10 @@
 					{#each navigation as item (item.href)}
 						<a
 							class="text-sm text-neutral-600 transition hover:text-purple-700 dark:text-neutral-300 dark:hover:text-purple-200"
-							href={resolve(item.href)}>{item.label}</a
+							href={resolve(item.href)}
 						>
+							{item.label}
+						</a>
 					{/each}
 				</div>
 			</div>
@@ -48,19 +51,17 @@
 					Elsewhere
 				</p>
 				<div class="mt-4 grid gap-2">
-					<!-- eslint-disable svelte/no-navigation-without-resolve -->
 					{#each site.socials as social (social.href)}
 						<a
 							class="inline-flex items-center gap-1.5 text-sm text-neutral-600 transition hover:text-purple-700 dark:text-neutral-300 dark:hover:text-purple-200"
 							href={social.href}
 							target="_blank"
-							rel="noreferrer"
+							rel="external noreferrer"
 						>
 							{social.label}
 							<ArrowUpRight class="size-3.5" aria-hidden="true" />
 						</a>
 					{/each}
-					<!-- eslint-enable svelte/no-navigation-without-resolve -->
 				</div>
 			</div>
 		</div>
@@ -71,7 +72,9 @@
 		<p>© 2026 {site.name}. Built with SvelteKit and deployed on Netlify.</p>
 		<a
 			href={`mailto:${site.email}`}
-			class="transition hover:text-purple-700 dark:hover:text-purple-200">{site.email}</a
+			class="transition hover:text-purple-700 dark:hover:text-purple-200"
 		>
+			{site.email}
+		</a>
 	</div>
 </footer>

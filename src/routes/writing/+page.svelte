@@ -1,7 +1,7 @@
 <script lang="ts">
 	import Seo from '$lib/components/Seo.svelte';
 	import { writing } from '$lib/site';
-	import { MessageSquareText } from '@lucide/svelte';
+	import MessageSquareText from '@lucide/svelte/icons/message-square-text';
 </script>
 
 <Seo
@@ -36,13 +36,13 @@
 					<div
 						class="flex items-center justify-between gap-4 text-xs text-neutral-500 dark:text-neutral-400"
 					>
-						<time datetime={post.date}
-							>{new Intl.DateTimeFormat('en', {
+						<time datetime={post.date}>
+							{new Intl.DateTimeFormat('en', {
 								month: 'short',
 								day: 'numeric',
 								year: 'numeric'
-							}).format(new Date(post.date))}</time
-						>
+							}).format(new Date(post.date))}
+						</time>
 						<span>{post.readingTime}</span>
 					</div>
 					<h2

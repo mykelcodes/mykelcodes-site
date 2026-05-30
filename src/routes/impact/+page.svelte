@@ -2,7 +2,9 @@
 	import ImpactMetric from '$lib/components/ImpactMetric.svelte';
 	import Seo from '$lib/components/Seo.svelte';
 	import { impactAreas, metrics, testimonials } from '$lib/site';
-	import { Activity, BarChart3, Building2 } from '@lucide/svelte';
+	import Activity from '@lucide/svelte/icons/activity';
+	import Building2 from '@lucide/svelte/icons/building-2';
+	import ChartColumn from '@lucide/svelte/icons/chart-column';
 </script>
 
 <Seo
@@ -17,7 +19,7 @@
 			<p
 				class="flex items-center gap-2 text-sm font-semibold text-neutral-950 dark:text-white"
 			>
-				<BarChart3 class="size-4" aria-hidden="true" /> Organization insights
+				<ChartColumn class="size-4" aria-hidden="true" /> Organization insights
 			</p>
 			<h1
 				class="mt-3 text-3xl font-normal text-balance text-neutral-950 sm:text-4xl dark:text-white"
@@ -62,9 +64,9 @@
 						“{testimonial.quote}”
 					</blockquote>
 					<figcaption class="mt-6 text-sm text-neutral-600 dark:text-neutral-300">
-						<span class="font-semibold text-neutral-950 dark:text-white"
-							>{testimonial.author}</span
-						>, {testimonial.role}
+						<span class="font-semibold text-neutral-950 dark:text-white">
+							{testimonial.author}
+						</span>, {testimonial.role}
 					</figcaption>
 				</figure>
 			{/each}

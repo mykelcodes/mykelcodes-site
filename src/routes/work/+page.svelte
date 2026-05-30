@@ -2,7 +2,9 @@
 	import ProjectCard from '$lib/components/ProjectCard.svelte';
 	import Seo from '$lib/components/Seo.svelte';
 	import { projectArchive } from '$lib/site';
-	import { CircleDot, GitBranch, PackageCheck } from '@lucide/svelte';
+	import CircleDot from '@lucide/svelte/icons/circle-dot';
+	import GitBranch from '@lucide/svelte/icons/git-branch';
+	import PackageCheck from '@lucide/svelte/icons/package-check';
 </script>
 
 <Seo

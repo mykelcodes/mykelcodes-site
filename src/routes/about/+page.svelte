@@ -1,7 +1,9 @@
 <script lang="ts">
 	import Seo from '$lib/components/Seo.svelte';
 	import { expertise, principles, site, timeline } from '$lib/site';
-	import { BookOpen, CheckCircle2, Clock3 } from '@lucide/svelte';
+	import BookOpen from '@lucide/svelte/icons/book-open';
+	import CircleCheck from '@lucide/svelte/icons/circle-check';
+	import Clock3 from '@lucide/svelte/icons/clock-3';
 </script>
 
 <Seo
@@ -71,9 +73,9 @@
 				<div class="mt-4 divide-y divide-(--border)">
 					{#each timeline as moment (moment.title)}
 						<article class="grid gap-3 py-4 sm:grid-cols-[7rem_1fr]">
-							<span class="text-sm font-semibold text-(--accent)"
-								>{moment.period}</span
-							>
+							<span class="text-sm font-semibold text-(--accent)">
+								{moment.period}
+							</span>
 							<div>
 								<h3
 									class="text-base font-semibold text-neutral-950 dark:text-white"
@@ -97,7 +99,7 @@
 						<h2
 							class="flex gap-2 text-base font-semibold text-neutral-950 dark:text-white"
 						>
-							<CheckCircle2
+							<CircleCheck
 								class="mt-0.5 size-4 shrink-0 text-(--success)"
 								aria-hidden="true"
 							/>

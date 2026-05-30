@@ -53,11 +53,12 @@
 		>
 			<span
 				class="grid size-8 place-items-center bg-white text-sm font-semibold text-[#24292f] transition-transform group-hover:scale-105"
-				>MO</span
 			>
-			<span class="hidden text-sm font-semibold tracking-tight text-white sm:block"
-				>{site.name}</span
-			>
+				MO
+			</span>
+			<span class="hidden text-sm font-semibold tracking-tight text-white sm:block">
+				{site.name}
+			</span>
 		</a>
 
 		<div class="order-3 hidden w-full items-center gap-1 md:order-0 md:flex md:w-auto">

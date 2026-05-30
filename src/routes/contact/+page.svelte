@@ -1,7 +1,10 @@
 <script lang="ts">
 	import Seo from '$lib/components/Seo.svelte';
 	import { site } from '$lib/site';
-	import { Calendar, CircleDot, Mail, Send } from '@lucide/svelte';
+	import Calendar from '@lucide/svelte/icons/calendar';
+	import CircleDot from '@lucide/svelte/icons/circle-dot';
+	import Mail from '@lucide/svelte/icons/mail';
+	import Send from '@lucide/svelte/icons/send';
 
 	const opportunities = [
 		'React Native or Expo mobile leadership',
@@ -41,17 +44,16 @@
 					<Mail class="size-4" aria-hidden="true" />
 					{site.email}
 				</a>
-				<!-- eslint-disable svelte/no-navigation-without-resolve -->
+
 				<a
 					class="gh-button justify-start bg-(--surface)"
 					href={site.calendarUrl}
 					target="_blank"
-					rel="noreferrer"
+					rel="external noreferrer"
 				>
 					<Calendar class="size-4" aria-hidden="true" />
 					Book a conversation
 				</a>
-				<!-- eslint-enable svelte/no-navigation-without-resolve -->
 			</div>
 		</div>
 

@@ -44,9 +44,9 @@
 				<h3 class="text-sm font-semibold text-neutral-900 dark:text-white">
 					Contributions this year
 				</h3>
-				<span class="text-xs text-neutral-500 dark:text-neutral-400"
-					>Building across product, engineering, and systems</span
-				>
+				<span class="text-xs text-neutral-500 dark:text-neutral-400">
+					Building across product, engineering, and systems
+				</span>
 			</div>
 			<p class="sr-only">
 				Decorative contribution grid representing steady work across product, engineering,

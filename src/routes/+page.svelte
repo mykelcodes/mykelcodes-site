@@ -5,7 +5,12 @@
 	import ProjectCard from '$lib/components/ProjectCard.svelte';
 	import Seo from '$lib/components/Seo.svelte';
 	import { careerHighlights, currentFocus, featuredProjects, metrics, site } from '$lib/site';
-	import { ArrowRight, Building2, CheckCircle2, CircleDot, Mail, MapPin } from '@lucide/svelte';
+	import ArrowRight from '@lucide/svelte/icons/arrow-right';
+	import Building2 from '@lucide/svelte/icons/building-2';
+	import CircleCheck from '@lucide/svelte/icons/circle-check';
+	import CircleDot from '@lucide/svelte/icons/circle-dot';
+	import Mail from '@lucide/svelte/icons/mail';
+	import MapPin from '@lucide/svelte/icons/map-pin';
 </script>
 
 <Seo />
@@ -34,9 +39,9 @@
 					<p class="mt-4 text-sm leading-6 text-neutral-700 dark:text-neutral-300">
 						{site.role}. {site.tagline}
 					</p>
-					<a class="gh-button gh-button-primary mt-5 w-full" href={resolve('/contact')}
-						>Start a conversation</a
-					>
+					<a class="gh-button gh-button-primary mt-5 w-full" href={resolve('/contact')}>
+						Start a conversation
+					</a>
 					<div
 						class="mt-5 space-y-2 border-t border-(--border) pt-5 text-sm text-neutral-600 dark:text-neutral-300"
 					>
@@ -46,9 +51,10 @@
 						<p class="flex items-center gap-2">
 							<MapPin class="size-4" aria-hidden="true" /> Building globally
 						</p>
-						<a class="gh-link flex items-center gap-2" href={`mailto:${site.email}`}
-							><Mail class="size-4" aria-hidden="true" /> {site.email}</a
-						>
+						<a class="gh-link flex items-center gap-2" href={`mailto:${site.email}`}>
+							<Mail class="size-4" aria-hidden="true" />
+							{site.email}
+						</a>
 					</div>
 				</div>
 			</aside>
@@ -74,12 +80,9 @@
 							highlights, and ways to collaborate.
 						</p>
 						<div class="mt-6 flex flex-wrap gap-3">
-							<a class="gh-button gh-button-primary" href={resolve('/work')}
-								>View selected work <ArrowRight
-									class="size-4"
-									aria-hidden="true"
-								/></a
-							>
+							<a class="gh-button gh-button-primary" href={resolve('/work')}>
+								View selected work <ArrowRight class="size-4" aria-hidden="true" />
+							</a>
 							<a class="gh-button" href={resolve('/about')}>Read profile</a>
 						</div>
 					</div>
@@ -94,8 +97,10 @@
 						</h2>
 						<a
 							class="text-sm font-semibold text-[#0969da] dark:text-[#58a6ff]"
-							href={resolve('/work')}>View all work</a
+							href={resolve('/work')}
 						>
+							View all work
+						</a>
 					</div>
 					<div class="grid gap-4 lg:grid-cols-3">
 						{#each featuredProjects as project (project.title)}
@@ -128,7 +133,7 @@
 
 					<div class="gh-panel bg-(--surface) p-4">
 						<div class="flex items-center gap-2 border-b border-(--border) pb-3">
-							<CheckCircle2 class="size-4 text-(--success)" aria-hidden="true" />
+							<CircleCheck class="size-4 text-(--success)" aria-hidden="true" />
 							<h2 class="text-base font-semibold text-neutral-950 dark:text-white">
 								Career highlights
 							</h2>
@@ -139,7 +144,7 @@
 									<p
 										class="flex gap-2 text-sm font-semibold text-neutral-950 dark:text-white"
 									>
-										<CheckCircle2
+										<CircleCheck
 											class="mt-0.5 size-4 shrink-0 text-(--success)"
 											aria-hidden="true"
 										/>
@@ -177,8 +182,9 @@
 					<a
 						class="gh-button gh-button-primary mt-4 shrink-0 sm:mt-0"
 						href={resolve('/contact')}
-						>Start a conversation <ArrowRight class="size-4" aria-hidden="true" /></a
 					>
+						Start a conversation <ArrowRight class="size-4" aria-hidden="true" />
+					</a>
 				</section>
 			</div>
 		</div>
