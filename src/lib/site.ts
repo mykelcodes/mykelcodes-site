@@ -41,6 +41,22 @@ export type Project = {
 
 export const featuredProjects: Project[] = [
 	{
+		title: 'Newsroom',
+		description:
+			'A SvelteKit-based news aggregation and reading application, built with a focus on simplicity, performance, and a clean reading experience.',
+		status: 'Personal project',
+		accent: 'bg-gray-500',
+		technologies: ['SvelteKit', 'TypeScript', 'Tailwind CSS', 'Cloudflare Workers'],
+		links: [
+			{
+				label: 'Source code',
+				href: 'https://github.com/mykelcodes/newsroom',
+				kind: 'source'
+			},
+			{ label: 'Live site', href: 'https://newsroom.mykelcodes.com', kind: 'product' }
+		]
+	},
+	{
 		title: 'Enterprise Mobile Banking Platforms',
 		description:
 			'Mobile banking and digital platform work for major financial institutions, spanning architecture, delivery, brand consistency, and scalable frontend/mobile systems.',
@@ -70,18 +86,6 @@ export const featuredProjects: Project[] = [
 				href: 'https://www.linkedin.com/in/michaelolawale/',
 				kind: 'source'
 			}
-		]
-	},
-	{
-		title: 'Global Product Web Platforms',
-		description:
-			'Frontend systems for travel, logistics, and consulting teams, focused on responsive interfaces, performance, design systems, and pragmatic product execution.',
-		status: 'Delivered',
-		accent: 'bg-fuchsia-500',
-		technologies: ['React', 'Angular', 'TypeScript', 'MobX', 'Material UI'],
-		links: [
-			{ label: 'Overview', href: '/work#global-product-web-platforms', kind: 'case-study' },
-			{ label: 'Experience', href: '/about#experience', kind: 'case-study' }
 		]
 	}
 ];
